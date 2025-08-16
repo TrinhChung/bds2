@@ -1,0 +1,394 @@
+/*
+Theme Name: Flatsome Child
+Description: NamKiem developed for Flatsome Theme
+Author: UX Themes
+Template: flatsome
+Version: 3.11.3
+*/
+
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+#main{
+	background: url(images/nen-bai-viet.jpg)
+}
+span.amount{
+	display: none
+}
+.is-divider{
+	height: 0px !important
+}
+.div-widget-left .row .col{
+	padding-bottom: 5px;
+}
+.div-widget-left .product-small .box-text .product-title{
+	max-height: 17px;
+	overflow: hidden;
+}
+.div-widget-left .product-small .box-text .p-vt{
+	display: none
+}
+.product-small{
+	padding: 4px;
+}
+.box-text .product-title{
+	font-weight: bold;
+}
+.p-gia{
+	font-weight: bold;
+	color: red;
+}
+.p-dt i{
+	font-weight: bold;
+	color: #2980b9;
+}
+.p-vt{
+	font-weight: bold;
+	color: #2c3e50;
+}
+.category-page-row .p-vt{
+	display: none
+}
+.category-page-row .box-text{
+	background: white;
+	padding: 10px;
+}
+.div-trai-chi-tiet .product-title{
+	font-size: 18px;
+}
+.category-page-row .product-title{
+	min-height: 58px;
+}
+.section-breadcums{
+	padding: 10px !important;
+}
+.section-breadcums .col{
+	padding-bottom: 0px;
+}
+.div-widget-trai .post-item .box{
+	padding: 0px 6px;
+}
+.div-mo-ta-chi-tiet{
+	background: white;
+	margin-top: 10px;
+}
+.div-trai-chi-tiet{
+	background: white;
+	padding: 10px;
+}
+.div-related .p-vt{
+	display: none;  
+}
+.div-related .box-text {
+	background: white;
+	padding: 5px;
+}
+.div-related img{
+	min-height: 160px;
+}
+.div-related .product-title{
+	min-height: 58px;
+}
+.chosen-container{
+	max-width: 100% !important
+}
+.nut-lien-he{
+	text-align: center;
+}
+.nut-lien-he a{
+	font-weight: bold;
+	color: white;
+	padding: 12px;
+	cursor: pointer;
+	background: #27ae60;
+	border-radius: 6px;
+}
+.WOOF_Widget{
+	background: white;
+	padding: 9px;
+}
+.div-tin-chi-tiet{
+	background: white;
+	padding: 10px !important; 
+}
+.div-tin-chi-tiet .entry-title{
+	font-size: 22px;
+}
+
+.title-comm {
+	color: #fff;
+	font-size: 18px;
+	position: relative;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-weight: 700;
+
+	text-align: center;
+}
+
+h3.title-comm:before {
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 0;
+	right: 0;
+	margin-top: 0;
+	border-top: 2px solid #d0d2d3;
+	z-index: 1;
+	display: block;
+}
+
+.title-comm .title-holder {
+	min-width: 350px;
+	height: 45px;
+	background-color: #ffa801;
+	height: auto;
+	line-height: 45px;
+	padding: 0px 20px;
+	position: relative;
+	z-index: 2;
+	text-align: center;
+	display: inline-block;
+	min-width: 280px;
+}
+
+.title-holder:before {
+	content: "";
+	position: absolute;
+	right: -15px;
+	border-width: 0px;
+	bottom: 0px;
+	border-style: solid;
+	border-color: #ffa801 transparent;
+	display: block;
+	width: 0;
+	height: 0;
+	border-top: 23px solid transparent;
+	border-bottom: 22px solid transparent;
+	border-left: 15px solid #ffa801;
+}
+
+.title-holder:after {
+	content: "";
+	position: absolute;
+	left: -15px;
+	border-width: 0px;
+	bottom: 0px;
+	border-style: solid;
+	border-color: #ffa801 transparent;
+	display: block;
+	width: 0;
+	height: 0;
+	border-top: 23px solid transparent;
+	border-bottom: 22px solid transparent;
+	border-right: 15px solid #ffa801;
+}
+.div-form-home .col-inner{
+	background: wheat;
+	padding: 15px;
+}
+.box-text .post-title{
+	min-height: 57px;
+}
+div#nz-div {
+	border-bottom: 2px solid #ffa801;
+	margin-bottom: 10px;
+	display: block;
+}
+.gallery-col {
+	padding-bottom: 0px !important
+}
+.gallery-col .box-text{
+	display: none !important
+}
+
+.product-title a{
+	color: #ffa801 !important
+}
+#nz-div h3.tde {
+	margin: 0;
+	font-size: 16px;
+	line-height: 20px;
+	display: inline-block;
+	text-transform: uppercase;
+}
+
+#nz-div h3.tde :after {
+	content: "";
+	width: 0;
+	height: 0;
+	border-top: 40px solid transparent;
+	border-left: 20px solid #ffa801;
+	border-bottom: 0px solid transparent;
+	border-right: 0 solid transparent;
+	position: absolute;
+	top: 0px;
+	right: -20px;
+}
+
+#nz-div h3.tde span {
+	background: #ffa801;
+	padding: 10px 20px 8px 20px;
+	color: white;
+	position: relative;
+	display: inline-block;
+	margin: 0;
+}
+
+.sub-cat {
+	display: inline-block;
+	margin: 0;
+	line-height: 45px;
+	margin-left: 100px;
+	float: right;
+}
+.woof_reset_search_form{
+	display: none
+}
+.div-tim-kiem .chosen-container-single .chosen-single{
+	border-radius: 0px 
+}
+.div-tim-kiem{
+	background: url(/wp-content/uploads/2019/08/bg-boxsearch.png) repeat;
+
+	/* height: 115px; */
+	margin: 0 auto;
+	/* padding: 14px 0 0 17px; */
+	position: relative;
+	padding: 12px;
+
+}
+
+.div-tim-kiem .woof_submit_search_form_container button{
+
+	font-size: 13px;
+	background: #37A344;
+}
+.section-content{
+	z-index: inherit;
+}
+
+.pd-info table tr:nth-child(2n+1) {
+	background: #eaf5ff;
+}
+.pd-info tr td{
+	padding: 7px 12px;
+}
+.pd-info tr td b{
+	font-size: 12px !important
+}
+.product-info .price-wrapper{
+	display: none
+}
+
+p._sale_price_field{
+	display:none !important 
+}
+.flex-right ul li a{
+	text-transform: initial !important;
+	font-size: 16px;
+}
+
+/*Màu sắc button*/
+.social-button, .social-icons .button.icon:not(.is-outline), .social-icons .button.icon:hover {
+	background-color: currentColor !important;
+	border-color: currentColor !important;
+}
+.button.facebook,.button.facebook:not(.is-outline), .button.facebook:hover {
+	color: #fff;
+	background-color: #446084;
+	border-color: #446084;
+}
+.button.twitter,.button.twitter:not(.is-outline), .button.twitter:hover {
+	color: white !important;
+	background : #2478ba !important;
+	border-color: #2478ba;
+}
+.button.email,.button.email:not(.is-outline), .button.email:hover {
+	color: #fff;
+	background-color: black !important;
+	border-color: black !important;
+}
+.button.pinterest,.button.pinterest:not(.is-outline), .button.pinterest:hover {
+	color: #fff !important;
+	background-color: #cb2320  !important;
+	border-color: #cb2320  !important;
+}
+
+.button.google-plus,.button.google-plus:not(.is-outline), .button.google-plus:hover {
+	color: #fff !important;
+	background-color: #dd4e31 !important;
+	border-color: #dd4e31  !important;
+}
+.button.linkedin,.button.linkedin:not(.is-outline), .button.linkedin:hover {
+	color: #fff !important;
+	background-color: #0072b7 !important;
+	border-color: #0072b7     !important;
+}
+
+.single-date{
+	border-bottom: 1px dashed #ededed;
+}
+.product-info h1.entry-title
+{
+	line-height: 1.6 !important;
+	font-size: 13px !important;
+}
+.product-page-title .is-large{
+
+	font-size: 12px;
+}
+/*Kết thúc màu sắc*/
+
+
+footer.entry-meta {
+	border-top: none !important;
+	border-bottom: 1px dashed #ececec !important;
+
+}
+.entry-content img{
+	width: auto !important
+}
+.duong-line {
+	background: rgba(0,0,0,0) url(images/line.png) repeat scroll 0 0;
+	height: 12px;
+	margin-top: 5px;
+	overflow: hidden;
+}
+.related-post h7{
+	font-weight: bold;
+	font-size: 18px;
+	float: left;
+	margin: -8px 20px 0 0;
+}
+
+.tieu-de-form-home{
+	text-transform: uppercase;
+	color: red;
+}
+
+@media only screen and (max-width: 48em) {
+	/*************** ADD MOBILE ONLY CSS HERE  ***************/
+
+}
+@media(max-width: 481px){
+	.post-sidebar{
+		padding-top: 10px;
+	}
+}
+@media(max-width: 769px){
+	.div-tim-kiem .chosen-container {
+		width: 100% !important
+	}
+
+}
+@media(min-width: 1023px){
+	.div-tim-kiem .chosen-container-single{
+		width: 19% !important;
+		float: left;
+		margin: 10px 10px 10px 0px;
+	}
+	.div-tim-kiem .woof_container{
+		padding: 0px;
+		margin: 0px;
+	}
+}
