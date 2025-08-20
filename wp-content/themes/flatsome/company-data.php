@@ -54,7 +54,7 @@ if ( ! function_exists('get_company_data') ) {
                 "approval_date"     => null,
                 "expiry_date"       => null,
                 "organization_no"   => "",
-                "short_name"        => "",
+                "short_name"        => "home",
                 "name_vn"   => "",
                 "domain"   => ""
             );
@@ -84,7 +84,7 @@ if ( ! function_exists('get_company_data') ) {
                 "approval_date"     => null,
                 "expiry_date"       => null,
                 "organization_no"   => "",
-                "short_name"        => "",
+                "short_name"        => "home",
                 "name_vn"   => "",
                 "domain"   => ""
             );
